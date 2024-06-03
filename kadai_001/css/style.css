@@ -1,0 +1,247 @@
+/*================
+ PC、スマホ共通スタイル
+=================*/
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: black;
+  background-color: #ffffff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+#header > h1 {
+  border: 1px solid;
+  padding: 3px 19px;
+  margin: 0 0 0 20px;
+}
+#header > h1 > a {
+  font-size: 34px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#nav-pc {
+  font-size: 34px;
+  font-weight: bold;
+}
+#nav-pc > ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 18px 0;
+}
+
+#nav-pc > ul > li {
+  padding: 0 18px;
+
+ 
+}
+
+#nav-pc > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#main-visual > img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#about {
+  margin: 60px auto;
+}
+
+#about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+}
+
+#about-flex > img {
+  border-radius: 50%;
+  margin: 0 80px 0 0;
+
+}
+
+#about-flex h3 {
+  font-size: 24px;
+}
+#about-flex li {
+  font-size: 18px;
+}
+
+#works {
+  margin: 60px auto;
+}
+
+#works-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#works-flex > div {
+  width: 240px;
+  margin: 0 8px;
+}
+
+#works-flex img {
+  width: 100%;
+}
+#works-flex p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: 18px;
+}
+
+}
+
+/*スマホ*/
+
+@media screen and (max-width: 767px) {
+
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 960px;
+  }
+  
+  #header > h1 {
+    border: 1px solid;
+    padding: 3px 19px;
+    margin: 0 0 0 20px;
+  }
+  #header > h1 > a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  #nav-pc {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  #nav-pc > ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 18px 0;
+  }
+  
+  #nav-pc > ul > li {
+    padding: 0 18px;
+  
+   
+  }
+  
+  #nav-pc > ul > li > a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  #main-visual > img {
+    width: 100%;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #about {
+    margin: 0 auto;
+  }
+  
+  #about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 48px auto;
+  }
+  
+  #about-flex > img {
+    border-radius: 50%;
+    margin: 0 auto;
+  
+  }
+  #about-flex div {
+    margin: 0 32px;
+  }
+
+  #about-flex h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+ 
+  #about-flex li {
+    font-size: 18px;
+  }
+  
+  #works {
+    margin: 60px auto;
+  }
+  
+  #works-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
+  }
+  #works-flex > div {
+    width: 100%;
+    margin: 0 auto 40px auto;
+  }
+  
+  #works-flex img {
+    width: 100%;
+  }
+  #works-flex p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  footer p {
+    font-size: 18px;
+    padding: 0 0 18px 0;
+    margin: 0
+  }
+}  
